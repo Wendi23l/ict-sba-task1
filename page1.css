@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, hsl(263, 95%, 14%), #6b4b91); 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   }
+   .wrapper{
+     width: 520px;
+     background-color: linear-gradient(to right, hsl(263, 95%, 14%), #6b4b91);  
+     color:aliceblue;
+     border-radius: 10px;
+   padding: 30px 40px;
+   }
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  .wrapper-box input{
+    width:100%;
+    height: 100%;
+    background-color: #6b4b91;
+    outline:none;
+    border: 2px solid rgb(120, 126, 36);
+  }
+  .input-box input::-placeholder{
+    color: aliceblue;
+  }
+  .input-box i{
+    position:  absolute;
+    right: 28px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 14.Spx;
+    margin: -15px 0 15px;
+  }
+  .remember-forget label input{
+    color:#fff;
+    margin-right: 3px;
+  }
+  .remember-forget a{
+    color: #fff;
+    text-decoration-color: none;
+  }
+  .remember-forget.btn{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 48px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  .wrapper.register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  
+  .table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(214, 195, 17, 0.418);
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(173, 184, 19);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+  }
+  .divider {
+    border-top: 2px solid rgb(84, 38, 99); 
+    margin: 20px 0; 
+  }
+  
+  th {
+    background-color: #ccbb25; 
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 12px;
+    border: 1px solid #ddd; 
+  }
+  
+  tbody tr {
+    transition: background-color 0.3s;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+  }
+  
+  tbody tr:hover {
+    background-color: #e0f7fa; 
+  }
+  
+  label {
+    color: lightyellow;
+  }
+  
+body {
+    font-family: Arial, sans-serif; 
+}
+
+span {
+    color: #530a0a; 
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 5px; 
+    line-height: 32px;
+}
+
+.item-list li {
+    margin: 5px 0; 
+    list-style-type: disc; 
+}
+nav {
+  background-color: #4CAF50; 
+  padding: 15px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+nav {
+  background-color: #4CAF50;
+  padding: 15px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  position: fixed; 
+  top: 0; 
+  left: 10; 
+  right: 10; 
+  z-index: 1000; 
+}
+
+nav a {
+  color: white;
+  text-decoration: none; 
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s; 
+  margin-right: 10px;
+}
+
+
+nav a[aria-current="page"] {
+  background-color: rgba(255, 255, 255, 0.2); 
+}
+
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3); 
+}

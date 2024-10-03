@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, hsl(263, 95%, 14%), #6b4b91); 
+  margin: 0;
+  padding: 20px;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 520px;
+  background: linear-gradient(to right, hsl(263, 95%, 14%), #6b4b91); 
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper-box input {
+  width: 100%;
+  height: 40px; 
+  background-color: #6b4b91;
+  outline: none;
+  border: 2px solid rgb(238, 255, 0);
+}
+
+.input-box input::-placeholder {
+  color: aliceblue;
+}
+
+.input-box i {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px; 
+  margin: -15px 0 15px;
+}
+
+.remember-forget label input {
+  color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forget a {
+  color: #fff;
+  text-decoration: none; 
+}
+
+.remember-forget.btn {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 48px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.wrapper.register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.table-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(214, 195, 17, 0.418);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(184, 179, 19);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-top: 20px;
+}
+
+.divider {
+  border-top: 2px solid rgb(84, 38, 99); 
+  margin: 20px 0; 
+}
+
+th {
+  background-color: #ccbb25; 
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ddd; 
+}
+
+tbody tr {
+  transition: background-color 0.3s; 
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+tbody tr:hover {
+  background-color: #e0f7fa; 
+}
+
+label {
+  color: lightyellow;
+}
